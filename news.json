@@ -1,148 +1,32 @@
 [
   {
     "id": 1,
-    "title": "花に亡霊",
-    "date": "2025-09-06",
-    "content": "ONE OK ROCKBloody Mary GirlShe Her Her HersFerrariBebe RexhaLemon米津玄師LOSER米津玄師夏日漱石(Summer Cozy Rock)橘子海TaswellC418",
+    "title": "常用指令公告",
+    "date": "2025-09-11",
+    "content": "# 常用指令公告\n\n欢迎使用我们的服务器！以下是玩家常用的指令列表，快速了解并提升你的游玩体验！\n\n## 传送相关指令\n- **/tpa [player]** - 向某位玩家发送传送请求。\n- **/tpahere [player]** - 向某位玩家发送到自己的传送请求。\n- **/tpaaccept $[player]** - 接受最新的传送请求。如果指定玩家，则接受该玩家的请求。\n- **/tpadeny $[player]** - 拒绝最新的传送请求。如果指定玩家，则拒绝该玩家的请求。\n- **/tpacancel $[player]** - 取消发送的最后一次传送请求。如果指定玩家，取消对该玩家的请求。\n- **/tptoggle** - 为执行命令的玩家打开/关闭自动拒绝传送请求的功能（免打扰模式）。\n- **/back** - 将玩家传送到最后一次死亡地点（可在配置中禁用）。\n- **/tpblock** - 阻止玩家向你发送传送请求。\n- **/tpunblock** - 允许玩家向你发送传送请求。\n\n## 家园相关指令\n- **/sethome <自己设定的名称>** - 将当前位置与指定名称绑定。\n  - 示例: `/sethome home1` - 将当前位置绑定为 `home1`，名称可任意设置。\n- **/home <自己设定的名称>** - 传送到指定名称绑定的位置。\n  - 示例: `/home home1` - 传送至之前绑定为 `home1` 的坐标。\n- **/delhome <自己设定的名称>** - 删除指定名称的传送坐标。\n  - 示例: `/delhome home1` - 删除 `home1` 的坐标点位，之后无法通过 `/home` 传送。\n\n## 其他实用指令\n- **/rtp** - 将你随机传送到当前世界的某个位置。\n- **/sf guide** - 获取 Slimefun 指南书，右键点击打开，查看所有分类。这是游玩中所需的第一件物品。\n- **/tpsbar** - 显示一个 bossbar，展示当前的 TPS/MSPT 数据。\n- **/menu** - 打开菜单，返回大厅或切换路线。\n\n> **注意**: 带 `$` 标记的命令参数是可选的，请根据需要使用！\n\n祝您游戏愉快！有任何问题，请联系管理员。",
+    "image": "https://gitee.com/Narcssu/craft.luminolsuki.moe-imagehosting/raw/master/images/574fb36b899999ec5258de0c21b6c69e.webp",
+    "tags": ["公告", "指令", "指南"],
+    "pinned": true,
+    "additionalImages": [
+      "https://gitee.com/Narcssu/craft.luminolsuki.moe-imagehosting/raw/master/news-additionalImages/66136cba-db79-414d-b804-966c9ebc2ddc.webp",
+
+      "https://gitee.com/Narcssu/craft.luminolsuki.moe-imagehosting/raw/master/news-additionalImages/menu.webp"
+
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Markdown 格式测试",
+    "date": "2025-09-10",
+    "content": "# 测试标题 1 (H1)\n## 测试标题 2 (H2)\n### 测试标题 3 (H3)\n\n这是普通的段落文本，**加粗**和 *斜体* 效果，~~删除线~~ 也支持。\n\n- 无序列表项 1\n- 无序列表项 2\n  - 嵌套列表项\n- 无序列表项 3\n\n1. 有序列表项 1\n2. 有序列表项 2\n3. 有序列表项 3\n\n> 这是一个块引用，引用一段文字来突出显示。\n\n[这是一个链接](https://luminolsuki.moe/)\n\n!\n\n`inline code` 示例，以及以下的多行代码块：\n\n```javascript\nfunction helloWorld() {{\n  console.log(\"Hello, World!\");\n}}\n```\n\n---",
     "image": "https://gitee.com/Narcssu/craft.luminolsuki.moe-imagehosting/raw/master/images/Image_669214276923463.webp",
     "tags": ["服务器上线", "社区"],
     "pinned": true,
     "additionalImages": [
       "https://gitee.com/Narcssu/craft.luminolsuki.moe-imagehosting/raw/master/images/Image_669203224465863.webp",
-      "https://gitee.com/Narcssu/craft.luminolsuki.moe-imagehosting/raw/master/images/Image_669234245588716.webp"
+      "https://gitee.com/Narcssu/craft.luminolsuki.moe-imagehosting/raw/master/images/Image_669234245588716.webp",
+      "https://gitee.com/Narcssu/craft.luminolsuki.moe-imagehosting/raw/master/images/Image_585028843869744.webp"
     ]
-  },
-  {
-    "id": 2,
-    "title": "ただ君に晴れ",
-    "date": "2025-09-05",
-    "content": "METRO BOOMINPRESENTSSPIDER-MAN:ACROSSTHESPIDER-VERSE[SOUNDTRACKFROM ANDINSPIREDBYTHEMOTION...",
-    "image": "https://gitee.com/Narcssu/craft.luminolsuki.moe-imagehosting/raw/master/images/Image_669214276923463.webp",
-    "tags": ["更新", "修复"],
-    "pinned": false,
-    "additionalImages": [
-      "https://gitee.com/Narcssu/craft.luminolsuki.moe-imagehosting/raw/master/images/Image_669276986426772.webp"
-    ]
-  },
-  {
-    "id": 3,
-    "title": "test",
-    "date": "2025-09-04",
-    "content": "Spider-Man: Into the Spider-Verse (Soundtrack From &Inspired by the Motion Picture)",
-    "image": "https://gitee.com/Narcssu/craft.luminolsuki.moe-imagehosting/raw/master/images/Image_669214276923463.webp",
-    "tags": ["活动", "社区"],
-    "pinned": true,
-    "additionalImages": [
-      "https://gitee.com/Narcssu/craft.luminolsuki.moe-imagehosting/raw/master/images/Image_585036168830575.webp",
-      "https://gitee.com/Narcssu/craft.luminolsuki.moe-imagehosting/raw/master/images/Image_585061010780930.webp",
-      "https://gitee.com/Narcssu/craft.luminolsuki.moe-imagehosting/raw/master/images/Image_585012522922876.webp"
-    ]
-  },
-  {
-    "id": 4,
-    "title": "左右盲",
-    "date": "2025-09-03",
-    "content": "The Forever Story (Extended Version)前前前世- movie ver.RADWIMPSDream lanternRADWIMPSSchool road",
-    "image": "https://gitee.com/Narcssu/craft.luminolsuki.moe-imagehosting/raw/master/images/Image_669214276923463.webp",
-    "tags": ["维护"],
-    "pinned": false,
-    "additionalImages": []
-  },
-  {
-    "id": 5,
-    "title": "だから僕は音楽を辞めた",
-    "date": "2025-09-02",
-    "content": "RADWIMPSNandemonaiya- movie edit.RADWIMPSNandemonaiya- movie ver.RADWIMPS",
-    "image": "https://gitee.com/Narcssu/craft.luminolsuki.moe-imagehosting/raw/master/images/Image_669214276923463.webp",
-    "tags": ["更新", "PVP"],
-    "pinned": false,
-    "additionalImages": [
-      "https://gitee.com/Narcssu/craft.luminolsuki.moe-imagehosting/raw/master/images/Image_585012522922876.webp"
-    ]
-  },
-  {
-    "id": 10,
-    "title": "So Cynical (Badum)",
-    "date": "2025-09-02",
-    "content": "前前前世- movie ver.Sparkle- movie ver.RADWIMPSなんでもないや-moviever.RADWIMPSKatawaredokiRADWIMPSRain秦基博",
-    "image": "https://gitee.com/Narcssu/craft.luminolsuki.moe-imagehosting/raw/master/images/Image_669214276923463.webp",
-    "tags": ["反馈", "修复"],
-    "pinned": false,
-    "additionalImages": []
-  },
-  {
-    "id": 11,
-    "title": "失恋ソング沢山聴いて泣いてばかりの私はもう。",
-    "date": "2025-09-02",
-    "content": "誰にもなれない私だからTOGENASHI TOGEARI時を刻む唄Lia,VISUAL ARTS /KeyBrave SongAoiTada,VISUALARTS / Key",
-    "image": "https://gitee.com/Narcssu/craft.luminolsuki.moe-imagehosting/raw/master/images/Image_669214276923463.webp",
-    "tags": ["地图", "冒险"],
-    "pinned": false,
-    "additionalImages": [
-      "https://gitee.com/Narcssu/craft.luminolsuki.moe-imagehosting/raw/master/images/Image_585012522922876.webp"
-    ]
-  },
-  {
-    "id": 12,
-    "title": "君は口ックを聴かない",
-    "date": "2025-09-02",
-    "content": "Call of Silence澤野弘仏之SPIRALShe Her Her HersEpisode 33She Her Her HersArrowsShe Her Her Hersecho(余音)She Her Her Hers,甜約翰 Sweet John",
-    "image": "https://gitee.com/Narcssu/craft.luminolsuki.moe-imagehosting/raw/master/images/Image_669214276923463.webp",
-    "tags": ["问答", "社区"],
-    "pinned": false,
-    "additionalImages": []
-  },
-  {
-    "id": 13,
-    "title": "誰にもなれない私だから",
-    "date": "2025-09-02",
-    "content": "Stuck In LoveRa CostelloeSo Called Love SongAGAンラゴトcoctaiLLet GoBeau Young PrinceOne Way Ticket",
-    "image": "https://gitee.com/Narcssu/craft.luminolsuki.moe-imagehosting/raw/master/images/Image_669214276923463.webp",
-    "tags": ["活动", "周年"],
-    "pinned": false,
-    "additionalImages": [
-      "https://gitee.com/Narcssu/craft.luminolsuki.moe-imagehosting/raw/master/images/Image_585012522922876.webp"
-    ]
-  },
-  {
-    "id": 14,
-    "title": "君は口ックを聴かない",
-    "date": "2025-09-02",
-    "content": "Call of Silence澤野弘仏之SPIRALShe Her Her HersEpisode 33She Her Her HersArrowsShe Her Her Hersecho(余音)She Her Her Hers,甜約翰 Sweet John",
-    "image": "https://gitee.com/Narcssu/craft.luminolsuki.moe-imagehosting/raw/master/images/Image_669214276923463.webp",
-    "tags": ["问答", "社区"],
-    "pinned": false,
-    "additionalImages": []
-  },
-  {
-    "id": 15,
-    "title": "Where Did U Go",
-    "date": "1145-14-19",
-    "content": "Divine FailureElsooyerAgora HillsDoja CatOh My HeartR.E.M.蝶に結いた赤い糸TOGENASHI TOGEARIョスガパソラメインテ一マBruno",
-    "image": "https://gitee.com/Narcssu/craft.luminolsuki.moe-imagehosting/raw/master/images/574fb36b899999ec5258de0c21b6c69e.webp",
-    "tags": ["问答", "test"],
-    "pinned": true,
-    "additionalImages": []
-  },
-  {
-    "id": 16,
-    "title": "君は口ックを聴かない",
-    "date": "2025-09-02",
-    "content": "Wen-li打上花火Daoko,米津玄師空の箱-井芹仁菜、河原木TOGENASHI TOGEARITekItCafunéマリ一ゴ一ルド愛缪四陳奕迅God's PlanDrake",
-    "image": "https://gitee.com/Narcssu/craft.luminolsuki.moe-imagehosting/raw/master/images/574fb36b899999ec5258de0c21b6c69e.webp",
-    "tags": ["问答", "test"],
-    "pinned": false,
-    "additionalImages": []
-  },
-  {
-    "id": 17,
-    "title": "君は口ックを聴かない",
-    "date": "2025-09-02",
-    "content": "Call of Silence澤野弘仏之SPIRALShe Her Her HersEpisode 33She Her Her HersArrowsShe Her Her Hersecho(余音)She Her Her Hers,甜約翰 Sweet John",
-    "image": "https://gitee.com/Narcssu/craft.luminolsuki.moe-imagehosting/raw/master/images/574fb36b899999ec5258de0c21b6c69e.webp",
-    "tags": ["问答", "社区"],
-    "pinned": false,
-    "additionalImages": []
   }
-
+  
 ]
