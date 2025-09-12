@@ -1,0 +1,101 @@
+# 测试标题 1 (H1)
+## 测试标题 2 (H2)
+### 测试标题 3 (H3)
+
+这是普通的段落文本，**加粗**和 *斜体* 效果，~~删除线~~ 也支持。
+
+- 无序列表项 1
+- 无序列表项 2
+  - 嵌套列表项
+- 无序列表项 3
+
+1. 有序列表项 1
+2. 有序列表项 2
+3. 有序列表项 3
+
+> 这是一个块引用，引用一段文字来突出显示。
+[这是一个链接](https://luminolsuki.moe/)
+
+`inline code` 示例，以及以下的多行代码块：
+
+```java
+package org.ncc.JoinQuitMessage;
+
+import org.bukkit.Bukkit;
+import org.bukkit.command.Command;
+import org.bukkit.command.CommandSender;
+import org.bukkit.event.Listener;
+import org.bukkit.plugin.java.JavaPlugin;
+
+public final class JoinQuitMessage extends JavaPlugin implements Listener {
+    public static JavaPlugin instance;
+
+    @Override
+    public void onLoad() {
+        getLogger().info("JoinQuitMessage插件已成功加载！");
+    }
+
+    public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
+        if (sender.hasPermission("joinquitmessage.admin")){// 判断输入的指令是否是/joinquitmessage
+            ConfigManager.reloadConfig();
+            sender.sendMessage("JoinQuitMessage配置文件已成功重新加载！");
+            return true; // 返回true防止返回指令的usage信息
+        }
+        return false;
+    }
+
+    @Override
+    public void onEnable() {
+        instance = this;
+        Bukkit.getPluginManager().registerEvents(new PlayerJoin(), this);    //注册事件
+        Bukkit.getPluginManager().registerEvents(new PlayerQuit(), this);
+        ConfigManager.initConfig();
+        ConfigManager.loadConfig();
+        if(!Bukkit.getPluginManager().isPluginEnabled("PlaceholderAPI")){
+            getLogger().warning("PlaceHolderAPI is needed for further features.");
+        }
+        getLogger().info("JoinQuitMessage插件已成功启用！");
+        // Plugin startup logic
+    }
+
+    @Override
+    public void onDisable() {
+        // Plugin shutdown logic
+        getLogger().info("JoinQuitMessage插件已成功禁用！");
+    }
+}
+
+```
+
+```yml
+name: JoinQuitMessage
+version: '${project.version}'
+main: org.ncc.JoinQuitMessage.JoinQuitMessage
+api-version: '1.21'
+folia-supported: true
+softdepend:
+  - PlaceHolderAPI
+
+commands:
+  joinquitmessage:
+    description: "使插件重载配置文件"
+    usage: /joinquitmessage #指令的用法 当onCommand()方法返回false时提示这里的内容
+    aliases: [ jqm ] #指令的多种形式 意为可以用 jqm 来触发/joinquitmessage这个指令
+    permission: "joinquitmessage.admin" #指令所需要的权限（权限节点默认op）
+    permission-message: "你配用吗你就用" #当输入者无上方权限时提示该信息
+```
+
+```java
+  public static void loadConfig() {
+      config = YamlConfiguration.loadConfiguration(configFile);
+      joinMessage = config.getStringList("join-message").isEmpty() ? defaultJoinMessage : config.getStringList("join-message");
+      quitMessage = config.getStringList("quit-message").isEmpty() ? defaultQuitMessage : config.getStringList("quit-message");
+  }
+
+  public static void reloadConfig() {
+      initConfig();
+      loadConfig();
+  }
+```
+
+---
