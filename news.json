@@ -18,7 +18,7 @@
     "id": 2,
     "title": "纯净服 2025/09/13 更新内容",
     "date": "2025-09-13",
-    "content": "https://github.com/LuminolCraft/news.json/blob/main/News-content/content_20250919.markdown",
+    "content": "https://raw.githubusercontent.com/LuminolCraft/news.json/refs/heads/main/News-content/content_20250919.markdown",
     "image": "https://gitee.com/Narcssu/craft.luminolsuki.moe-imagehosting/raw/master/images/574fb36b899999ec5258de0c21b6c69e.webp",
     "tags": ["更新"],
     "pinned": false,
@@ -26,6 +26,7 @@
   }
   
 ]
+
 
 
 
