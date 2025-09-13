@@ -18,7 +18,7 @@
     "id": 2,
     "title": "纯净服 2025/09/13 更新内容",
     "date": "2025-09-13",
-    "content": "News-content/20250919.md",
+    "content": "News-content/content_20250919.markdown",
     "image": "https://gitee.com/Narcssu/craft.luminolsuki.moe-imagehosting/raw/master/images/574fb36b899999ec5258de0c21b6c69e.webp",
     "tags": ["更新"],
     "pinned": false,
@@ -306,4 +306,5 @@
   }
   
 ]
+
 
