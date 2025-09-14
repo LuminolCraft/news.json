@@ -5,7 +5,7 @@
     "date": "2025-09-13",
     "content": "https://raw.githubusercontent.com/LuminolCraft/news.json/refs/heads/main/News-content/content_1.markdown",
     "image": "https://gitee.com/Narcssu/craft.luminolsuki.moe-imagehosting/raw/master/images/574fb36b899999ec5258de0c21b6c69e.webp",
-    "tags": ["公告", "指令", "指南"],
+    "tags": ["公告", "指令", "纯净服"],
     "pinned": true,
     "additionalImages": [
       "https://gitee.com/Narcssu/craft.luminolsuki.moe-imagehosting/raw/master/news-additionalImages/66136cba-db79-414d-b804-966c9ebc2ddc.webp",
@@ -20,7 +20,17 @@
     "date": "2025-09-13",
     "content": "https://raw.githubusercontent.com/LuminolCraft/news.json/refs/heads/main/News-content/content_20250913.markdown",
     "image": "https://gitee.com/Narcssu/craft.luminolsuki.moe-imagehosting/raw/master/images/574fb36b899999ec5258de0c21b6c69e.webp",
-    "tags": ["更新"],
+    "tags": ["更新", "纯净服"],
+    "pinned": false,
+    "additionalImages": []
+  },
+  {
+    "id": 3,
+    "title": "纯净服开放假人使用权限公告",
+    "date": "2025-09-14",
+    "content": "https://raw.githubusercontent.com/LuminolCraft/news.json/refs/heads/main/News-content/content_20250914_1.md",
+    "image": "",
+    "tags": ["公告", "纯净服"],
     "pinned": false,
     "additionalImages": []
   }
