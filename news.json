@@ -41,10 +41,11 @@
     "content": "https://raw.githubusercontent.com/LuminolCraft/news.json/refs/heads/main/News-content/content-20250920.md",
     "image": "",
     "tags": ["构建进展", "综合服"],
-    "pinned": false,
+    "pinned": true,
     "additionalImages": []
   }
 ]
+
 
 
 
