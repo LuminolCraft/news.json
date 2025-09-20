@@ -33,9 +33,19 @@
     "tags": ["公告", "纯净服"],
     "pinned": false,
     "additionalImages": []
+  },
+  {
+    "id": 4,
+    "title": "综合服务器构建进展",
+    "date": "2025-09-20",
+    "content": "https://raw.githubusercontent.com/LuminolCraft/news.json/refs/heads/main/News-content/content-20250920.md",
+    "image": "",
+    "tags": ["构建进展", "综合服"],
+    "pinned": false,
+    "additionalImages": []
   }
-  
 ]
+
 
 
 
