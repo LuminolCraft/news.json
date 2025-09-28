@@ -66,6 +66,69 @@ public final class JoinQuitMessage extends JavaPlugin implements Listener {
 }
 
 ```
+```java
+public static void reloadConfig(CommandSender sender) {
+        config = YamlConfiguration.loadConfiguration(configFile);
+        if (Bukkit.getPluginManager().getPlugin("PlaceholderAPI") != null) {
+            new papiHook().register();
+        } else {
+            Location.getInstance().getLogger().warning("未找到 PlaceholderAPI 插件, 无法注册变量.");
+        }
+        getConfigValue(config);
+        sender.sendMessage(Component.text("Reload successfully!", NamedTextColor.GREEN));
+    }
+
+    public static void getConfigValue(FileConfiguration conf) {
+        CACHE_OUTDATED_RATE = conf.getInt("cache-outdated-rate", 24);
+        CHECK_INTERVAL_MINUTES = conf.getInt("check-interval-minute", 10);
+        QPS = conf.getInt("qps", 15);
+        RETRY_COUNT_DROP = conf.getInt("retry-count-drop", 5);
+
+        COUNTRY_REPLACEMENT = LocationType.valueOf(conf.getString("replacement.country","UNKNOWN"));
+        PROVINCE_REPLACEMENT = LocationType.valueOf(conf.getString("replacement.province","UNKNOWN"));
+        ISP_REPLACEMENT = LocationType.valueOf(conf.getString("replacement.isp","UNKNOWN"));
+        DISTRICT_REPLACEMENT = LocationType.valueOf(conf.getString("replacement.district","UNKNOWN"));
+        CITY_REPLACEMENT = LocationType.valueOf(conf.getString("replacement.city","UNKNOWN"));
+
+        replacementKey = conf.getStringList("replacement.key");
+    }
+
+```
+```kotlin
+val entityTypeSet = setOf(
+        EntityType.CREEPER,
+        EntityType.PRIMED_TNT,
+        EntityType.MINECART_TNT,
+        EntityType.SMALL_FIREBALL,
+        EntityType.WITHER_SKULL,
+        EntityType.WITHER,
+        EntityType.ENDER_CRYSTAL
+    )
+
+    override fun onEnable() {
+        if (!configFile.exists()) {
+            if (!configFile.parentFile.exists()) {
+                configFile.parentFile.mkdirs()
+            }
+            configFile.createNewFile()
+            tmpB = true
+        }
+        defaultConfigMap.forEach { (key, value) ->
+            run {
+                if (config.get(key) == null) {
+                    config.set(key, value)
+                    tmpB = true
+                } else {
+                    currentConfigMap[key] = config.getBoolean(key, value)
+                }
+            }
+        }
+        if (tmpB) {
+            saveConfig()
+        }
+        Bukkit.getPluginManager().registerEvents(this, this)
+    }
+```
 
 ```yml
 name: JoinQuitMessage
