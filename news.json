@@ -53,8 +53,19 @@
     "tags": ["更新", "纯净服"],
     "pinned": false,
     "additionalImages": []
+  },
+  {
+    "id": 6,
+    "title": "开发测试",
+    "date": "2025-09-29",
+    "content": "https://raw.githubusercontent.com/LuminolCraft/news.json/refs/heads/main/News-content/content_3.markdown",
+    "image": "",
+    "tags": ["测试", "网页"],
+    "pinned": false,
+    "additionalImages": []
   }
 ]
+
 
 
 
