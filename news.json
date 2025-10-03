@@ -53,6 +53,16 @@
     "tags": ["更新", "纯净服"],
     "pinned": false,
     "additionalImages": []
+  },
+    {
+    "id": 6,
+    "title": "LuminolCraft 服务器规则（简洁版）",
+    "date": "2025-10-03",
+    "content": "https://raw.githubusercontent.com/LuminolCraft/news.json/refs/heads/main/News-content/rule_20251003.md",
+    "image": "https://gitee.com/Narcssu/craft.luminolsuki.moe-imagehosting/raw/master/images/4483d29a-1797-4817-a73d-2f44ed464a2e.webp",
+    "tags": ["公告", "规则"],
+    "pinned": true,
+    "additionalImages": []
   }
 ]
 
