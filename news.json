@@ -63,8 +63,29 @@
     "tags": ["公告", "规则"],
     "pinned": true,
     "additionalImages": []
+  },
+  {
+    "id": 7,
+    "title": "这是markdown渲染测试-本地",
+    "date": "2025-10-06",
+    "content": "https://github.com/LuminolCraft/news.json/blob/main/News-content/test",
+    "image": "",
+    "tags": ["测试", "功能","123","想打搅"],
+    "pinned": false,
+    "additionalImages": []
+  },
+  {
+    "id": 8,
+    "title": "这是markdown渲染测试-外链",
+    "date": "2025-10-03",
+    "content": "https://raw.githubusercontent.com/LuminolMC/Luminol/refs/heads/ver/1.21.8/README.md",
+    "image": "",
+    "tags": ["想打搅", "想要彩笔"],
+    "pinned": true,
+    "additionalImages": []
   }
 ]
+
 
 
 
