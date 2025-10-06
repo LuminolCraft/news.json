@@ -68,7 +68,7 @@
     "id": 7,
     "title": "这是markdown渲染测试-本地",
     "date": "2025-10-06",
-    "content": "https://github.com/LuminolCraft/news.json/blob/main/News-content/test",
+    "content": "https://raw.githubusercontent.com/LuminolCraft/news.json/refs/heads/main/News-content/test.md",
     "image": "",
     "tags": ["测试", "功能","123","想打搅"],
     "pinned": false,
@@ -85,6 +85,7 @@
     "additionalImages": []
   }
 ]
+
 
 
 
