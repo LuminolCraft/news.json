@@ -2,8 +2,8 @@
   {
     "id": 1,
     "title": "常用指令公告",
-    "date": "2025-10-26",
-    "content": "https://raw.githubusercontent.com/LuminolCraft/news.json/refs/heads/main/News-content/content_1.markdown",
+    "date": "2025-11-02",
+    "content": "https://luminolcraft-news.pages.dev/News-content/content_1.markdown",
     "image": "https://gitee.com/Narcssu/craft.luminolsuki.moe-imagehosting/raw/master/images/574fb36b899999ec5258de0c21b6c69e.webp",
     "tags": ["公告", "指令"],
     "pinned": true,
@@ -41,7 +41,7 @@
     "content": "https://raw.githubusercontent.com/LuminolCraft/news.json/refs/heads/main/News-content/content-20250920.md",
     "image": "",
     "tags": ["构建进展", "综合服"],
-    "pinned": true,
+    "pinned": false,
     "additionalImages": []
   },
   {
@@ -71,6 +71,16 @@
     "content": "https://raw.githubusercontent.com/LuminolCraft/news.json/refs/heads/main/News-content/content_20251026_1.md",
     "image": "",
     "tags": ["公告", "综合服"],
+    "pinned": false,
+    "additionalImages": []
+  },
+    {
+    "id": 8,
+    "title": "LuminolCraft 2025/11/02更新",
+    "date": "2025-11-02",
+    "content": "https://luminolcraft-news.pages.dev/News-content/content_20251102.md",
+    "image": "",
+    "tags": ["更新"],
     "pinned": false,
     "additionalImages": []
   }
