@@ -98,11 +98,31 @@
     {
     "id": 10,
     "title": "纯净生存移除粘液科技的计划和工作说明",
-    "date": "2025-12-27",
+    "date": "2026-01-09",
     "content": "https://luminolcraft-news.pages.dev/News-content/content_20251227.md",
     "image": "",
     "tags": ["纯净服","公告"],
     "pinned": true,
+    "additionalImages": []
+  },
+    {
+    "id": 11,
+    "title": "随记——记纯净生存出生点维护",
+    "date": "2026-01-09",
+    "content": "https://luminolcraft-news.pages.dev/News-content/content_20260109_1.md",
+    "image": "",
+    "tags": ["纯净服","随记"],
+    "pinned": false,
+    "additionalImages": []
+  },
+    {
+    "id": 12,
+    "title": "关于封禁 qcvnmp 玩家的通告",
+    "date": "2026-01-09",
+    "content": "https://luminolcraft-news.pages.dev/News-content/content_20260109_2.md",
+    "image": "",
+    "tags": ["纯净服","公告"],
+    "pinned": false,
     "additionalImages": []
   }
 ]
