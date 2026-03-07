@@ -102,7 +102,7 @@
     "content": "https://luminolcraft-news.pages.dev/News-content/content_20251227.md",
     "image": "",
     "tags": ["纯净服","公告"],
-    "pinned": true,
+    "pinned": false,
     "additionalImages": []
   },
     {
@@ -124,10 +124,18 @@
     "tags": ["纯净服","公告"],
     "pinned": false,
     "additionalImages": []
+  },
+    {
+    "id": 13,
+    "title": "LuminolCraft 2026春节更新",
+    "date": "2026-01-09",
+    "content": "https://luminolcraft-news.pages.dev/News-content/content_20260307.md",
+    "image": "",
+    "tags": ["更新"],
+    "pinned": false,
+    "additionalImages": []
   }
 ]
-
-
 
 
 
