@@ -164,6 +164,16 @@
     "tags": ["暑假活动服","活动"],
     "pinned": true,
     "additionalImages": []
+  },
+    {
+    "id": 17,
+    "title": "纯净生存2026年暑假活动",
+    "date": "2026-08-03",
+    "content": "https://luminolcraft-news.pages.dev/News-content/content_20260803.md",
+    "image": "https://scarefree.cn/img/afop.png",
+    "tags": ["更新", "纯净服"],
+    "pinned": false,
+    "additionalImages": []
   }
 ]
 
