@@ -157,7 +157,7 @@
     "content": "https://luminolcraft-news.pages.dev/News-content/content-20260713.md",
     "image": "https://scarefree.cn/img/afop.png",
     "tags": ["暑假活动服","活动"],
-    "pinned": true,
+    "pinned": false,
     "additionalImages": []
   },
     {
@@ -198,6 +198,16 @@
     "image": "https://imagehosting-ez2.pages.dev/avif/luminolcraft_liquid_glass_gemini.avif",
     "tags": ["综合服", "FAQ"],
     "pinned": true,
+    "additionalImages": []
+  },
+  {
+    "id": 21,
+    "title": "LuminolCraft 2026/08/09 更新",
+    "date": "2026-08-09",
+    "content": "https://luminolcraft-news.pages.dev/News-content/content_20260809.md",
+    "image": "",
+    "tags": ["更新"],
+    "pinned": false,
     "additionalImages": []
   }
 ]
