@@ -183,7 +183,7 @@
   {
     "id": 19,
     "title": "纯净生存常见问题",
-    "date": "2026-08-08",
+    "date": "2026-08-21",
     "content": "https://luminolcraft-news.pages.dev/News-content/content_20260808_2.md",
     "image": "https://imagehosting-ez2.pages.dev/avif/luminolcraft_liquid_glass_gemini.avif",
     "tags": ["纯净服", "FAQ"],
@@ -317,6 +317,26 @@
     "content": "https://luminolcraft-news.pages.dev/News-content/content_20260820_3.md",
     "image": "",
     "tags": ["封禁"],
+    "pinned": false,
+    "additionalImages": []
+  },
+  {
+    "id": 33,
+    "title": "关于封禁玩家 Bot_TnT123 的公告",
+    "date": "2026-08-21",
+    "content": "https://luminolcraft-news.pages.dev/News-content/content_20260821_1.md",
+    "image": "",
+    "tags": ["封禁"],
+    "pinned": false,
+    "additionalImages": []
+  },
+    {
+    "id": 34,
+    "title": "纯净生存服 2026/8/21 更新",
+    "date": "2026-08-21",
+    "content": "https://luminolcraft-news.pages.dev/News-content/content_20260821_2.md",
+    "image": "",
+    "tags": ["更新", "纯净服"],
     "pinned": false,
     "additionalImages": []
   }
