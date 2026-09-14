@@ -349,6 +349,16 @@
     "tags": ["封禁"],
     "pinned": false,
     "additionalImages": []
+  },
+  {
+    "id": 36,
+    "title": "关于清理 CoreProtect 插件数据库老旧数据的公告",
+    "date": "2026-09-14",
+    "content": "https://luminolcraft-news.pages.dev/News-content/content_20260914_1.md",
+    "image": "",
+    "tags": ["公告", "纯净服"],
+    "pinned": false,
+    "additionalImages": []
   }
 ]
 
