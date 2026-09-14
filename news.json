@@ -359,6 +359,16 @@
     "tags": ["公告", "纯净服"],
     "pinned": false,
     "additionalImages": []
+  },
+  {
+    "id": 37,
+    "title": "关于封禁多名违规玩家的公告",
+    "date": "2026-09-14",
+    "content": "https://luminolcraft-news.pages.dev/News-content/content_20260914_2.md",
+    "image": "",
+    "tags": ["封禁"],
+    "pinned": false,
+    "additionalImages": []
   }
 ]
 
