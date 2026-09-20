@@ -379,6 +379,16 @@
     "tags": ["公告", "纯净服"],
     "pinned": true,
     "additionalImages": []
+  },
+  {
+    "id": 39,
+    "title": "测试喵喵喵",
+    "date": "2026-09-20",
+    "content": "https://luminolcraft-news.pages.dev/News-content/test.md",
+    "image": "",
+    "tags": ["测试", "test"],
+    "pinned": true,
+    "additionalImages": []
   }
 ]
 
