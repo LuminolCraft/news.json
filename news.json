@@ -399,6 +399,16 @@
     "tags": ["测试","公告"],
     "pinned": false,
     "additionalImages": []
+  },
+  {
+    "id": 41,
+    "title": "[测试] 公告投递诊断13:20",
+    "date": "2026-09-20",
+    "content": "https://luminolcraft-news.pages.dev/News-content/content_20260920_test.md",
+    "image": "",
+    "tags": ["测试","公告"],
+    "pinned": false,
+    "additionalImages": []
   }
 ]
 
