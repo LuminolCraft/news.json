@@ -369,6 +369,16 @@
     "tags": ["封禁"],
     "pinned": false,
     "additionalImages": []
+  },
+  {
+    "id": 38,
+    "title": "纯净生存服启用账号绑定的公告与操作指南",
+    "date": "2026-09-20",
+    "content": "https://luminolcraft-news.pages.dev/News-content/content_20260920_1.md",
+    "image": "",
+    "tags": ["公告", "纯净服"],
+    "pinned": true,
+    "additionalImages": []
   }
 ]
 
