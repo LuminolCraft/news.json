@@ -489,5 +489,15 @@
     ],
     "pinned": false,
     "additionalImages": []
+  },
+  {
+    "id": 40,
+    "title": "[测试] SSE 在线公告验收",
+    "date": "2026-09-20",
+    "content": "https://luminolcraft-news.pages.dev/News-content/content_20260920_test.md",
+    "image": "",
+    "tags": ["测试","公告"],
+    "pinned": false,
+    "additionalImages": []
   }
 ]
