@@ -1,0 +1,72 @@
+# 新闻发布 → 站内公告（不落库、零轮询）
+#
+# 触发：news.json 变更（含新增条目）时，把「本次新增」的新闻条目推给 Nexus，
+# 由 Nexus 向在线用户实时推送站内公告（`POST /api/v1/internal/news/published`，
+# 见 luminol-nexus 的 src/modules/news、src/modules/internal）。
+#
+# 设计要点：
+# - 只推「新增 id」（对比 push 前的 news.json）；编辑已有条目不会重复播报；
+# - 首推 / 强推 / 新分支（before 取不到旧文件）一律跳过，避免把历史条目当新内容轰炸；
+# - 每次最多 10 条（服务端上限），超出自动分批；
+# - 幂等：通知 id 由新闻 id 派生，重放时前端按 id 去重。
+#
+# 需要的仓库配置：
+# - secret `NEXUS_NEWS_WEBHOOK_SECRET`：与 Nexus 生产环境 `NEWS_WEBHOOK_SECRET` 同值
+#   （`wrangler secret put NEWS_WEBHOOK_SECRET --env production`）
+# - 变量 `NEXUS_INTERNAL_URL`（可选）：默认 https://luminolcraft-nexus.narcssu.top
+name: announce-new-news
+
+on:
+  push:
+    branches: [main, master]
+    paths:
+      - news.json
+
+jobs:
+  announce:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Compute added news items
+        id: diff
+        env:
+          BEFORE: ${{ github.event.before }}
+        run: |
+          set -euo pipefail
+          if ! git cat-file -e "${BEFORE}:news.json" 2>/dev/null; then
+            echo "no previous news.json (before=${BEFORE}); skip announcement"
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git show "${BEFORE}:news.json" > /tmp/news-old.json
+          jq -s '.[0] as $old | [.[1][] | select(.id as $i | ($old | map(.id) | index($i)) == null)]' \
+            /tmp/news-old.json news.json > /tmp/news-added.json
+          count=$(jq 'length' /tmp/news-added.json)
+          echo "added=${count}" >> "$GITHUB_OUTPUT"
+          if [ "$count" -gt 0 ]; then
+            jq '{items: [.[] | {id, title, date, tags: (.tags // [])}]}' \
+              /tmp/news-added.json > /tmp/news-payload.json
+          fi
+
+      - name: Notify Nexus (batches of 10)
+        if: steps.diff.outputs.skip != 'true' && steps.diff.outputs.added != '0'
+        env:
+          NEXUS_URL: ${{ vars.NEXUS_INTERNAL_URL }}
+          NEWS_WEBHOOK_SECRET: ${{ secrets.NEXUS_NEWS_WEBHOOK_SECRET }}
+        run: |
+          set -euo pipefail
+          url="${NEXUS_URL:-https://luminolcraft-nexus.narcssu.top}/api/v1/internal/news/published"
+          total=$(jq '.items | length' /tmp/news-payload.json)
+          echo "announcing ${total} new item(s)"
+          for ((i = 0; i < total; i += 10)); do
+            jq --argjson start "$i" '{items: .items[$start:$start + 10]}' \
+              /tmp/news-payload.json > /tmp/news-batch.json
+            curl --fail-with-body -sS -m 30 -X POST "$url" \
+              -H "content-type: application/json" \
+              -H "X-Webhook-Secret: ${NEWS_WEBHOOK_SECRET}" \
+              --data @/tmp/news-batch.json
+            echo
+          done
