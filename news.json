@@ -5,7 +5,10 @@
     "date": "2026-08-08",
     "content": "https://luminolcraft-news.pages.dev/News-content/content_1.markdown",
     "image": "https://gitee.com/Narcssu/craft.luminolsuki.moe-imagehosting/raw/master/images/574fb36b899999ec5258de0c21b6c69e.webp",
-    "tags": ["纯净服", "指令"],
+    "tags": [
+      "纯净服",
+      "指令"
+    ],
     "pinned": true,
     "additionalImages": []
   },
@@ -15,7 +18,10 @@
     "date": "2025-09-13",
     "content": "https://raw.githubusercontent.com/LuminolCraft/news.json/refs/heads/main/News-content/content_20250913.markdown",
     "image": "https://gitee.com/Narcssu/craft.luminolsuki.moe-imagehosting/raw/master/images/574fb36b899999ec5258de0c21b6c69e.webp",
-    "tags": ["更新", "纯净服"],
+    "tags": [
+      "更新",
+      "纯净服"
+    ],
     "pinned": false,
     "additionalImages": []
   },
@@ -25,7 +31,10 @@
     "date": "2025-09-14",
     "content": "https://raw.githubusercontent.com/LuminolCraft/news.json/refs/heads/main/News-content/content_20250914_1.md",
     "image": "",
-    "tags": ["公告", "纯净服"],
+    "tags": [
+      "公告",
+      "纯净服"
+    ],
     "pinned": false,
     "additionalImages": []
   },
@@ -35,7 +44,10 @@
     "date": "2025-09-20",
     "content": "https://raw.githubusercontent.com/LuminolCraft/news.json/refs/heads/main/News-content/content-20250920.md",
     "image": "",
-    "tags": ["构建进展", "综合服"],
+    "tags": [
+      "构建进展",
+      "综合服"
+    ],
     "pinned": false,
     "additionalImages": []
   },
@@ -45,128 +57,165 @@
     "date": "2025-09-21",
     "content": "https://raw.githubusercontent.com/LuminolCraft/news.json/refs/heads/main/News-content/content_20250921_1.md",
     "image": "",
-    "tags": ["更新", "纯净服"],
+    "tags": [
+      "更新",
+      "纯净服"
+    ],
     "pinned": false,
     "additionalImages": []
   },
-    {
+  {
     "id": 6,
     "title": "LuminolCraft 服务器规则（简洁版）",
     "date": "2025-10-03",
     "content": "https://raw.githubusercontent.com/LuminolCraft/news.json/refs/heads/main/News-content/rule_20251003.md",
     "image": "https://gitee.com/Narcssu/craft.luminolsuki.moe-imagehosting/raw/master/images/4483d29a-1797-4817-a73d-2f44ed464a2e.webp",
-    "tags": ["公告", "规则"],
+    "tags": [
+      "公告",
+      "规则"
+    ],
     "pinned": true,
     "additionalImages": []
   },
-    {
+  {
     "id": 7,
     "title": "LuminolCraft 综合服开放通知",
     "date": "2025-10-26",
     "content": "https://raw.githubusercontent.com/LuminolCraft/news.json/refs/heads/main/News-content/content_20251026_1.md",
     "image": "",
-    "tags": ["公告", "综合服"],
+    "tags": [
+      "公告",
+      "综合服"
+    ],
     "pinned": false,
     "additionalImages": []
   },
-    {
+  {
     "id": 8,
     "title": "LuminolCraft 2025/11/02 更新",
     "date": "2025-11-02",
     "content": "https://luminolcraft-news.pages.dev/News-content/content_20251102.md",
     "image": "",
-    "tags": ["更新"],
+    "tags": [
+      "更新"
+    ],
     "pinned": false,
     "additionalImages": []
   },
-    {
+  {
     "id": 9,
     "title": "LuminolCraft 综合生存开放桃源世界通知",
     "date": "2025-12-14",
     "content": "https://luminolcraft-news.pages.dev/News-content/content_20251214.md",
     "image": "",
-    "tags": ["综合服","公告","更新"],
+    "tags": [
+      "综合服",
+      "公告",
+      "更新"
+    ],
     "pinned": false,
     "additionalImages": []
-  }
-  ,
-    {
+  },
+  {
     "id": 10,
     "title": "纯净生存移除粘液科技的计划和工作说明",
     "date": "2026-01-09",
     "content": "https://luminolcraft-news.pages.dev/News-content/content_20251227.md",
     "image": "",
-    "tags": ["纯净服","公告"],
+    "tags": [
+      "纯净服",
+      "公告"
+    ],
     "pinned": false,
     "additionalImages": []
   },
-    {
+  {
     "id": 11,
     "title": "随记——记纯净生存出生点维护",
     "date": "2026-01-09",
     "content": "https://luminolcraft-news.pages.dev/News-content/content_20260109_1.md",
     "image": "",
-    "tags": ["纯净服","随记"],
+    "tags": [
+      "纯净服",
+      "随记"
+    ],
     "pinned": false,
     "additionalImages": []
   },
-    {
+  {
     "id": 12,
     "title": "关于封禁 qcvnmp 玩家的通告",
     "date": "2026-01-09",
     "content": "https://luminolcraft-news.pages.dev/News-content/content_20260109_2.md",
     "image": "",
-    "tags": ["纯净服","公告"],
+    "tags": [
+      "纯净服",
+      "公告"
+    ],
     "pinned": false,
     "additionalImages": []
   },
-    {
+  {
     "id": 13,
     "title": "LuminolCraft 2026春节更新",
     "date": "2026-03-07",
     "content": "https://luminolcraft-news.pages.dev/News-content/content_20260307.md",
     "image": "",
-    "tags": ["更新"],
+    "tags": [
+      "更新"
+    ],
     "pinned": false,
     "additionalImages": []
   },
-    {
+  {
     "id": 14,
     "title": "纯净生存2026年暑假活动",
     "date": "2026-07-08",
     "content": "https://luminolcraft-news.pages.dev/News-content/content_20260708.md",
     "image": "",
-    "tags": ["纯净服","活动"],
+    "tags": [
+      "纯净服",
+      "活动"
+    ],
     "pinned": false,
     "additionalImages": []
   },
-    {
+  {
     "id": 16,
     "title": "插件开发日记 - debug经历与启示",
     "date": "2026-07-29",
     "content": "https://luminolcraft-news.pages.dev/News-content/diary-20260729.md",
     "image": "",
-    "tags": ["构建进展","随记"],
+    "tags": [
+      "构建进展",
+      "随记"
+    ],
     "pinned": false,
     "additionalImages": []
   },
-    {
+  {
     "id": 15,
     "title": "纯净生存2026年暑假活动",
     "date": "2026-07-13",
     "content": "https://luminolcraft-news.pages.dev/News-content/content-20260713.md",
     "image": "https://scarefree.cn/img/afop.png",
-    "tags": ["暑假活动服","活动"],
+    "tags": [
+      "暑假活动服",
+      "活动"
+    ],
     "pinned": false,
     "additionalImages": []
   },
-    {
+  {
     "id": 17,
     "title": "纯净生存服 2026/8/3 更新",
     "date": "2026-08-03",
     "content": "https://luminolcraft-news.pages.dev/News-content/content_20260803.md",
     "image": "",
-    "tags": ["更新", "纯净服"],
+    "tags": [
+      "更新",
+      "纯净服"
+    ],
     "pinned": false,
     "additionalImages": []
   },
@@ -176,7 +225,10 @@
     "date": "2026-08-08",
     "content": "https://luminolcraft-news.pages.dev/News-content/content_20260808_1.md",
     "image": "https://imagehosting-ez2.pages.dev/avif/luminolcraft_liquid_glass_gemini.avif",
-    "tags": ["综合服", "指令"],
+    "tags": [
+      "综合服",
+      "指令"
+    ],
     "pinned": true,
     "additionalImages": []
   },
@@ -186,7 +238,10 @@
     "date": "2026-08-21",
     "content": "https://luminolcraft-news.pages.dev/News-content/content_20260808_2.md",
     "image": "https://imagehosting-ez2.pages.dev/avif/luminolcraft_liquid_glass_gemini.avif",
-    "tags": ["纯净服", "FAQ"],
+    "tags": [
+      "纯净服",
+      "FAQ"
+    ],
     "pinned": true,
     "additionalImages": []
   },
@@ -196,7 +251,10 @@
     "date": "2026-08-08",
     "content": "https://luminolcraft-news.pages.dev/News-content/content_20260808_3.md",
     "image": "https://imagehosting-ez2.pages.dev/avif/luminolcraft_liquid_glass_gemini.avif",
-    "tags": ["综合服", "FAQ"],
+    "tags": [
+      "综合服",
+      "FAQ"
+    ],
     "pinned": true,
     "additionalImages": []
   },
@@ -206,7 +264,9 @@
     "date": "2026-08-09",
     "content": "https://luminolcraft-news.pages.dev/News-content/content_20260809.md",
     "image": "",
-    "tags": ["更新"],
+    "tags": [
+      "更新"
+    ],
     "pinned": false,
     "additionalImages": []
   },
@@ -216,7 +276,9 @@
     "date": "2026-08-11",
     "content": "https://luminolcraft-news.pages.dev/News-content/content_20260811.md",
     "image": "",
-    "tags": ["封禁"],
+    "tags": [
+      "封禁"
+    ],
     "pinned": false,
     "additionalImages": []
   },
@@ -226,7 +288,9 @@
     "date": "2026-08-12",
     "content": "https://luminolcraft-news.pages.dev/News-content/content_20260812.md",
     "image": "",
-    "tags": ["封禁"],
+    "tags": [
+      "封禁"
+    ],
     "pinned": false,
     "additionalImages": []
   },
@@ -236,7 +300,9 @@
     "date": "2026-08-13",
     "content": "https://luminolcraft-news.pages.dev/News-content/content_20260813_1.md",
     "image": "",
-    "tags": ["封禁"],
+    "tags": [
+      "封禁"
+    ],
     "pinned": false,
     "additionalImages": []
   },
@@ -246,7 +312,9 @@
     "date": "2026-08-14",
     "content": "https://luminolcraft-news.pages.dev/News-content/content_20260814_1.md",
     "image": "",
-    "tags": ["封禁"],
+    "tags": [
+      "封禁"
+    ],
     "pinned": false,
     "additionalImages": []
   },
@@ -256,7 +324,9 @@
     "date": "2026-08-17",
     "content": "https://luminolcraft-news.pages.dev/News-content/content_20260817_1.md",
     "image": "",
-    "tags": ["封禁"],
+    "tags": [
+      "封禁"
+    ],
     "pinned": false,
     "additionalImages": []
   },
@@ -266,7 +336,9 @@
     "date": "2026-08-17",
     "content": "https://luminolcraft-news.pages.dev/News-content/content_20260817_2.md",
     "image": "",
-    "tags": ["封禁"],
+    "tags": [
+      "封禁"
+    ],
     "pinned": false,
     "additionalImages": []
   },
@@ -276,7 +348,9 @@
     "date": "2026-08-18",
     "content": "https://luminolcraft-news.pages.dev/News-content/content_20260818_1.md",
     "image": "",
-    "tags": ["封禁"],
+    "tags": [
+      "封禁"
+    ],
     "pinned": false,
     "additionalImages": []
   },
@@ -286,7 +360,9 @@
     "date": "2026-08-18",
     "content": "https://luminolcraft-news.pages.dev/News-content/content_20260818_2.md",
     "image": "",
-    "tags": ["封禁"],
+    "tags": [
+      "封禁"
+    ],
     "pinned": false,
     "additionalImages": []
   },
@@ -296,7 +372,9 @@
     "date": "2026-08-20",
     "content": "https://luminolcraft-news.pages.dev/News-content/content_20260820_1.md",
     "image": "",
-    "tags": ["封禁"],
+    "tags": [
+      "封禁"
+    ],
     "pinned": false,
     "additionalImages": []
   },
@@ -306,7 +384,9 @@
     "date": "2026-08-20",
     "content": "https://luminolcraft-news.pages.dev/News-content/content_20260820_2.md",
     "image": "",
-    "tags": ["封禁"],
+    "tags": [
+      "封禁"
+    ],
     "pinned": false,
     "additionalImages": []
   },
@@ -316,7 +396,9 @@
     "date": "2026-08-20",
     "content": "https://luminolcraft-news.pages.dev/News-content/content_20260820_3.md",
     "image": "",
-    "tags": ["封禁"],
+    "tags": [
+      "封禁"
+    ],
     "pinned": false,
     "additionalImages": []
   },
@@ -326,17 +408,22 @@
     "date": "2026-08-21",
     "content": "https://luminolcraft-news.pages.dev/News-content/content_20260821_1.md",
     "image": "",
-    "tags": ["封禁"],
+    "tags": [
+      "封禁"
+    ],
     "pinned": false,
     "additionalImages": []
   },
-    {
+  {
     "id": 34,
     "title": "纯净生存服 2026/8/21 更新",
     "date": "2026-08-21",
     "content": "https://luminolcraft-news.pages.dev/News-content/content_20260821_2.md",
     "image": "",
-    "tags": ["更新", "纯净服"],
+    "tags": [
+      "更新",
+      "纯净服"
+    ],
     "pinned": false,
     "additionalImages": []
   },
@@ -346,7 +433,9 @@
     "date": "2026-08-21",
     "content": "https://luminolcraft-news.pages.dev/News-content/content_20260821_3.md",
     "image": "",
-    "tags": ["封禁"],
+    "tags": [
+      "封禁"
+    ],
     "pinned": false,
     "additionalImages": []
   },
@@ -356,7 +445,10 @@
     "date": "2026-09-14",
     "content": "https://luminolcraft-news.pages.dev/News-content/content_20260914_1.md",
     "image": "",
-    "tags": ["公告", "纯净服"],
+    "tags": [
+      "公告",
+      "纯净服"
+    ],
     "pinned": false,
     "additionalImages": []
   },
@@ -366,7 +458,9 @@
     "date": "2026-09-14",
     "content": "https://luminolcraft-news.pages.dev/News-content/content_20260914_2.md",
     "image": "",
-    "tags": ["封禁"],
+    "tags": [
+      "封禁"
+    ],
     "pinned": false,
     "additionalImages": []
   },
@@ -376,58 +470,24 @@
     "date": "2026-09-20",
     "content": "https://luminolcraft-news.pages.dev/News-content/content_20260920_1.md",
     "image": "",
-    "tags": ["公告", "纯净服"],
+    "tags": [
+      "公告",
+      "纯净服"
+    ],
     "pinned": true,
     "additionalImages": []
   },
- {
+  {
     "id": 39,
     "title": "[测试] 站内公告链路验证",
     "date": "2026-09-20",
     "content": "https://luminolcraft-news.pages.dev/News-content/content_20260920_test.md",
     "image": "",
-    "tags": ["测试","公告"],
-    "pinned": false,
-    "additionalImages": []
-  },
-  {
-    "id": 40,
-    "title": "[测试] 在线公告投递验证（可忽略）",
-    "date": "2026-09-20",
-    "content": "https://luminolcraft-news.pages.dev/News-content/content_20260920_test.md",
-    "image": "",
-    "tags": ["测试","公告"],
-    "pinned": false,
-    "additionalImages": []
-  },
-  {
-    "id": 41,
-    "title": "[测试] 公告投递诊断13:20",
-    "date": "2026-09-20",
-    "content": "https://luminolcraft-news.pages.dev/News-content/content_20260920_test.md",
-    "image": "",
-    "tags": ["测试","公告"],
-    "pinned": false,
-    "additionalImages": []
-  },
-  {
-    "id": 42,
-    "title": "[测试] 在线会话公告验收",
-    "date": "2026-09-20",
-    "content": "https://luminolcraft-news.pages.dev/News-content/content_20260920_test.md",
-    "image": "",
-    "tags": ["测试","公告"],
+    "tags": [
+      "测试",
+      "公告"
+    ],
     "pinned": false,
     "additionalImages": []
   }
 ]
-
-
-
-
-
-
-
-
-
-
